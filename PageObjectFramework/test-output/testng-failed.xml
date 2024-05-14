@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test name="Verify Car Brand(failed)">
+    <classes>
+      <class name="com.mla.testCases.Test2">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="TC_MyCar_02"/>
+        </methods>
+      </class> <!-- com.mla.testCases.Test2 -->
+    </classes>
+  </test> <!-- Verify Car Brand(failed) -->
+</suite> <!-- Failed suite [Suite] -->
